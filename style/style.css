@@ -2,7 +2,11 @@
 body 
     {
     font-family: 'Source Sans Pro';font-size: 18px;
+    background: url("backgrounds/huub.png")no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color:white;
+    background-position: center;
     }
 p
     {

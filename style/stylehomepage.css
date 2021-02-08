@@ -1,0 +1,179 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--Libre);
+}
+
+body
+{
+    line-height: 1.5;
+    font-size: 17px;
+    font-weight: 200;
+    text-rendering: optimizeLegibility;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+img
+{
+    width: 100%;
+    display: block;
+}
+li
+{
+    list-style-type: none;
+}
+button
+{
+    outline: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.container
+{
+    width: 94%;
+    margin: 0 auto;
+}
+.center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text
+{
+    padding: 5px 0;
+    line-height: 1.7;
+}
+.banner-item
+{
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color: white;
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn
+{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.banner-item:nth-child(1){
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/huub1.png") center/cover no-repeat fixed;
+}
+.banner-item:nth-child(2){
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/huub2.png") center/cover no-repeat fixed;
+}
+.banner-item:nth-child(3){
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/huub3.png") center/cover no-repeat fixed;
+}
+.banner-item:nth-child(4){
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/huub4.png") center/cover no-repeat fixed;
+}
+.banner-item:nth-child(5){
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/huub5.png") center/cover no-repeat fixed;
+}
+.banner-item:nth-child(6){
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/huub6.png") center/cover no-repeat fixed;
+}
+
+.banner-item .text
+{
+    text-transform: uppercase;
+}
+.banner-item button
+{
+    background: transparent;
+    border: 3px solid white;
+    padding: 14px;
+    text-transform: uppercase;
+    transition: var(--transition);
+    color: white;
+}
+.banner-item button:hover
+{
+    background: white;
+    color: black;
+}
+/* merch */
+.merchname
+{
+    color: rgb(240, 0, 0);
+    font-size: 26px;
+    margin-top: 50px;
+}
+.description
+{
+    font-style: italic;
+    text-transform: uppercase;
+    position: relative;
+}
+.merch
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    overflow: scroll;
+}
+.merch .merchcategories
+{
+    background: white;
+    opacity: 0.8;
+    margin: 5px;
+    padding: 20px;
+    line-height: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.merch .merchcategories .merch_img img
+{
+    width: 120px;
+    height: 120px;
+    opacity: 1;
+    align-items: center;
+}
+.merch .merchcategories:hover
+{
+-ms-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+.merch .merchcategories .description
+{
+    color: black;
+}
+
+.wiezijnwij
+{
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    color: black;
+    opacity: 0.8;
+    flex-direction: column;
+    margin: 20px;
+    padding: 0;
+}
+.wiezijnwij .kop
+{
+    text-transform: uppercase;
+    margin-bottom: 50px x   ;
+}
+.wiezijnwij p
+{
+    font-size:1.5vw;
+    margin: 40px;
+}
+.wiezijnwij span
+{
+    height: 0.5px;
+    widows: 80px;
+    background: red;
+    margin: 30px 0;
+}

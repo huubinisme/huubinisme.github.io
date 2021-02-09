@@ -66,7 +66,7 @@ button
     to{opacity: 1;}
 }
 .banner-item:nth-child(1){
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/huub1.png") center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/huub1.png") top/cover no-repeat fixed;
 }
 .banner-item:nth-child(2){
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/huub2.png") center/cover no-repeat fixed;

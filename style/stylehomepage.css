@@ -75,13 +75,13 @@ button
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/huub3.png") center/cover no-repeat fixed;
 }
 .banner-item:nth-child(4){
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/huub4.png") center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/huub2.png") center/cover no-repeat fixed;
 }
 .banner-item:nth-child(5){
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/huub5.png") center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/huub1.png") center/cover no-repeat fixed;
 }
 .banner-item:nth-child(6){
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/huub6.png") center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/huub1.png") center/cover no-repeat fixed;
 }
 
 .banner-item .text
